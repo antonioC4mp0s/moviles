@@ -6,8 +6,11 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 public class acceso_denegado extends AppCompatActivity {
+
+    TextView tvDenegado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +27,11 @@ public class acceso_denegado extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        tvDenegado = (TextView) findViewById(R.id.tvHola);
+
+        tvDenegado.setText("Usuario Registrado");
+
     }
 
 }
