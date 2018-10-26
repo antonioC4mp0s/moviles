@@ -23,6 +23,10 @@
         <activity
             android:name=".acceso_denegado"
             android:label="@string/title_activity_acceso_denegado"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".informacion"
+            android:label="@string/title_activity_informacion"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

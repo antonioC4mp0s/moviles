@@ -2,4 +2,5 @@
     <string name="app_name">sistemaLogin2</string>
     <string name="title_activity_acceso_permitido">acceso_permitido</string>
     <string name="title_activity_acceso_denegado">acceso_denegado</string>
+    <string name="title_activity_informacion">informacion</string>
 </resources>
